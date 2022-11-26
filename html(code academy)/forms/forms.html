@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <input>: Checkbox Type
+When using an HTML input element, the type="checkbox" attribute will render a 
+single checkbox item. To create a group of checkboxes related to the same topic, 
+they should all use the same name attribute. Since it’s a checkbox, multiple checkboxes can be selected for the same topic.
+ -->
+
+ <input type="checkbox" name="breakfast" value="bacon">Bacon 🥓<br>
+ <input type="checkbox" name="breakfast" value="eggs">Eggs 🍳<br>
+ <input type="checkbox" name="breakfast" value="pancakes">Pancakes 🥞<br>
+
+
+ <!-- <textarea> Element
+    The textarea element is used when creating a text-box for multi-line input (e.g. a comment section). 
+    The element supports the rows and cols attributes which determine the height and width, respectively, of the element. -->
+
+
+    <textarea rows="10" cols="30" name="comment"></textarea>
+
+
+<!-- 
+    <form> Element
+        The HTML <form> element is used to collect and send information to an external source. -->
+
+            <form method="post" action="http://server1">
+                Enter your name:
+                <input type="text" name="fname">
+                <br/>
+                Enter your age:
+                <input type="text" name="age">
+                <br/>
+                <input type="submit" value="Submit">
+              </form>
+
+
+
+              <!-- Submitting a Form
+              Once we have collected information in a form we can send that information somewhere else by using the action and method attribute. 
+              The action attribute tells the form to send the information. A URL is assigned that determines the recipient of the information. -->
+
+<form action="/index3.html" method="PUT">
+    <input type="text" name="username">
+    <input list="ide">
+    <datalist id="ide">
+      <option value="Visual Studio Code" />
+      <option value="Atom" />
+      <option value="Sublime Text" />
+    </datalist>
+
+    <!-- <input>: Radio Button Type
+    HTML <input> elements can be given a type="radio" attribute that renders a single radio button. Multiple radio buttons of a related topic are 
+    given the same name attribute value. Only a single option can be chosen from a group of radio buttons.
+ -->
+
+
+ <input name="delivery_option" type="radio" value="pickup" />
+<input name="delivery_option" type="radio" value="delivery" />
+
+<input name="username" id="username" />
+<input id="address" />
+
+
+
+</form>
+<!-- 
+<label> Element
+The HTML <label> element provides identification for a specific <input> based on matching values of the <input>‘s id attribute and the 
+<label>‘s for attribute. By default, clicking on the <label> will focus the field of the related <input>. -->
+
+
+    <label for="password ">Password:</label>
+<input type="password" name="password" required >
+
+
+
+<form action="/action_page.php">
+    Country code: 
+    <input type="text" name="country_code" 
+           pattern="[A-Za-z]{3}" 
+           title="Three letter country code">
+    <input type="submit">
+  </form>
+
+
+</body>
+</html>

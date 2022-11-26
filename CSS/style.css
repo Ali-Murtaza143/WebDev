@@ -1,0 +1,113 @@
+h3{
+color: blue;
+background-color: brown ;
+
+}
+
+
+/* class selector  */
+
+.header{
+
+    color: black;
+    background-color: brown ;
+    
+    
+
+}
+
+
+.classH1{
+
+    color: blue;
+background-color: brown ;
+
+
+}
+
+/* Id selector */
+
+#menu{
+
+    color: blue;
+background-color: brown ;
+border-color: bisque;
+padding:0cm;
+
+}
+
+
+.div{
+border-color: aquamarine;
+border-width: 2ch;
+border-style: double;
+border-right: 1em;
+
+}
+
+
+#div1{
+    border: aquamarine 1ch dotted ;
+outline: auto;    
+outline-style: dotted;
+outline-color: blanchedalmond;
+padding: 10px 20px 20px 15px 10px;
+}
+
+
+.div2
+{
+    padding: 10px;
+    padding-inline-start:0px ;
+}
+
+
+
+.div3{
+
+margin: 2px;
+margin-inline: 0PX;
+margin-bottom: auto;
+}
+
+
+.div4{
+width: 500px;
+border: 1px solid red ;
+height:100%;
+float: left;
+}
+
+
+.div6{
+
+width: 500px;
+border: 2px solid red; 
+padding: 12px;
+margin: 2px;
+border-radius:10px 15px 15px 10px;
+box-shadow: 2px blue;
+float: right;
+
+}
+
+.div5{
+    width: 100%;
+height: 500px;
+    
+    }
+
+
+
+    .div7{
+    width: 50%;
+    height: 500px;
+    padding: 2px;
+    border: 3px blue;
+    font-size: small;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+        text-align-last: auto ;
+    text-transform: uppercase;
+    }
+    
