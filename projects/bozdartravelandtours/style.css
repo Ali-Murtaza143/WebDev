@@ -1,0 +1,92 @@
+.nav-background{
+    background-color:rgba(214, 0, 0, 1) !important;
+}
+.nav-background .nav-link{
+    color: white !important;
+    transition: all ease-in 0.4s;
+   
+}
+.nav-background .nav-link:hover{
+    background-color:rgba(245, 20, 0, 0.74) !important;
+    border-radius: 25%;
+    color: black !important;
+}
+
+
+.heading{
+   
+    color: #427900;
+}
+.heading span{
+    color: #316DC3;
+}
+.head{
+    margin: 10px;
+}
+
+
+.mt-4{
+background: #316DC3
+
+}
+
+table
+
+{ color: white;  background-color: blueviolet
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(37, 39, 46) !important;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+.navbar
+{
+    background-color:red !important;
+}
+
+h1{
+
+    text-align: center
+}
+
+
+
+
+.footer{
+    background-color: rgb(37, 39, 46) !important;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.footer h2{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.footer-icon img{
+    width: 25px;
+}
+.fa{
+    color: #427900;
+    margin-right:10px !important;
+    margin-left: 10px !important;
+}
